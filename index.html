@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+</head>
+<body>
+    <div id="sidebar-background" class=""></div>
+    <div id="sidebar-menu" class="closed dark-background">
+        <i class="fa-solid fa-xmark close-sidebar"></i>
+        <div class="sidebar-items">
+            <div class="sidebar-pages">
+                <div class="sidebar-home">
+                    <i class="fa-solid fa-house"></i>
+                    <a class="home link-dark" href="index.html">Home</a>
+                </div>
+                <div class="sidebar-sobre">
+                    <i class="fa-solid fa-user"></i>
+                    <a class="sobre link-dark" href="about.html">Sobre Mim</a>
+                </div>
+            </div>
+            <a class="sugestão link-dark" href="">Deixe sua sugestão!</a>
+        </div>
+    </div>
+    <header>
+        <i class="fa-solid fa-bars open-sidebar"></i>
+        <div>
+            <input type="checkbox" id="change-theme">
+            <label for="change-theme">
+                <i class="fa-solid fa-moon"></i>
+                <i class="fa-solid fa-lightbulb"></i>
+            </label>
+        </div>
+    </header>
+    <main>
+        <img id="img-perfil" src="img/perfil.jpg" alt="">
+        <h1 id="name">Kauan Lucas Toldo</h1>
+        <h6 id="profissão">Programador</h6>
+        <div id="social">
+            <a href="https://www.instagram.com/kauan.toldo/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/toldokauan?t=acVDVrzRS8xgJCjpKZ0Jrw&s=08" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://github.com/KauanToldo" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <div id="line"></div>
+        <h2 class="title">Projetos Pessoais</h1>
+        <section class="projects">
+            <div id="contador-de-truco" class="project">
+                <div class="header-project">
+                    <h3>Contador de Truco</h3>
+                    <a href="https://kauantoldo.github.io/contador-de-truco/" target="_blank"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+                <img class="prev-project" src="img/contador_de_truco.png" alt="">
+                <p class="desc-project">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam non praesentium quis? Dolores, incidunt nihil! Atque minima veniam ipsam? Officiis, quibusdam fuga.</p>
+            </div>
+            <div id="movimentando-o-corpo" class="project">
+                <div class="header-project">
+                    <h3>Movimentando o Corpo</h3>
+                    <a href="https://kauantoldo.github.io/Movimentando-o-corpo/" target="_blank"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+                <img class="prev-project" src="img/movimentado-o-corpo.png" alt="">
+                <p class="desc-project">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam non praesentium quis? Dolores, incidunt nihil! Atque minima veniam ipsam? Officiis, quibusdam fuga.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
